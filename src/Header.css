@@ -1,0 +1,41 @@
+#genericHeader {
+    height: 40px;
+    width: 100%;
+    background-image: url(https://besthqwallpapers.com/img/original/130418/neon-line-circuit-board-neon-digital-background-pink-neon-lines-modern-technology-printed-circuit-board.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#genericHeader #blur {
+    background-color: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(50px);
+    height: 40px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#genericHeader a {
+    transition: color 0.2s ease;
+    margin-right: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#genericHeader a:hover {
+    color: #e02e83;
+}
+
+#genericHeader i {
+    transition: color 0.2s ease;
+    margin-left: 14px;
+    font-size: 1.5rem;
+}
+
+#genericHeader i:hover {
+    color: #e02e83;
+}

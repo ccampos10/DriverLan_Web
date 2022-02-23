@@ -1,0 +1,101 @@
+#config form {
+    width: 442px;
+    margin-top: 70px;
+    margin-left: 81px;
+    text-align: right;
+}
+
+#config form h2 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#config form p{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#config form p.titulo {
+    /* display: block; */
+    margin-right: 15px;
+}
+
+#config form p#estado {
+    color: #4c5b81;
+    width: 238.75px;
+    text-align: left;
+}
+
+#config form p#estado.conectado {
+    color: #4f9948;
+}
+
+#config form p#estado.desconectado {
+    color: #4c5b81;
+}
+
+#config form p#estado i.check {
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+#config #ipInput{
+    width: 234.750px;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 2px;
+}
+
+#config #conectarButton {
+    transition: background-color .2s ease;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    display: block;
+    font-size: 1rem;
+    margin: 15px auto;
+    color: white;
+    background-color: #2b2b2b;
+}
+
+#config #conectarButton.enable:hover {
+    background-color: #e02e83;
+}
+
+#config #conectarButton.disable {
+    background-color: #3a3a3a;
+    color: rgb(184, 184, 184);
+}
+
+/* /////////////////////////////////////////// */
+
+/* /////////////// Icon Cloud //////////////// */
+
+#iconCloud{
+    width: 30px;
+    height: 18px;
+    color: #2E3A59;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.iconCloud {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.iconCloud.interior {
+    top: 3px;
+    left: 3px;
+    color: #181818;
+    font-size: 1.2rem;
+}
+
+#shadow.T {
+    top: -2px;
+    color: #181818;
+}

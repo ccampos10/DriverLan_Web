@@ -1,0 +1,151 @@
+/* /////////////// General /////////////////// */
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 150%;
+}
+
+body {
+    background-color: #181818;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #e02e83;
+    border-radius: 10px;
+} */
+
+/* /////////////////////////////////////////// */
+
+/* ///////////////// Header ////////////////// */
+
+#Home {
+    background-image: url(https://besthqwallpapers.com/img/original/130418/neon-line-circuit-board-neon-digital-background-pink-neon-lines-modern-technology-printed-circuit-board.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+#Home div#Blur {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 64px;
+}
+
+#Home section#menuOp {
+    /* position: absolute;
+    top: 15px;
+    left: 15px; */
+    margin: 0 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Home section#menuOp i {
+    transition: color .2s ease;
+    font-size: 2rem;
+}
+
+#Home section#menuOp i:hover {
+    color: #e02e83;
+}
+
+#Home #UserAcctions {
+    font-size: 1.2rem;
+}
+
+#Home #UserAcctions a {
+    transition: color 0.2s ease;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#Home #UserAcctions a:hover {
+    color: #e02e83;
+}
+
+#Home div img {
+    display: block;
+    width: 422px;
+    margin: 0 auto;
+}
+
+#Home div h1 {
+    font-size: 64px;
+    display: block;
+    color: #fff;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+#Home div#Difuminado {
+    height: 92px;
+    background: linear-gradient(to top, #181818, transparent);
+}
+
+/* /////////////////////////////////////////// */
+
+/* ///////////////// Cuerpo ////////////////// */
+
+#cuerpo {
+    margin: 0 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+#cuerpo h2 {
+    margin-top: 28px;
+    font-size: 1.8rem;
+}
+
+#cuerpo p {
+    margin-top: 12px;
+    font-size: 1.125rem;
+}
+
+#cuerpo p a {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#cuerpo p a:hover {
+    font-size: 1.15rem;
+    color: #e02e83;
+    font-weight: bold;
+}
+
+.codigo {
+    background-color: #202020;
+    padding: 10px 12px;
+    margin-top: 12px;
+}
+
+.codigo span {
+    color: #CD8746;
+}
+
+.codigo #comando {
+    margin-top: 0px;
+}
+
+/* /////////////////////////////////////////// */
